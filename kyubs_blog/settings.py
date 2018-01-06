@@ -26,9 +26,8 @@ SECRET_KEY = os.environ['KYUBS_BLOG_SECRET_KEY']
 DEBUG = os.environ["DEBUG"] == "True"
 
 ALLOWED_HOSTS = [
-    'localhost'
-    'kyubs-blog.ap-southeast-1.elasticbeanstalk.com',
-    'kyubs-django.ap-southeast-1.elasticbeanstalk.com'
+    'localhost',
+    '.elasticbeanstalk.com',
 ]
 
 
