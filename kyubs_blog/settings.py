@@ -25,7 +25,10 @@ SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['kyubs-blog.ap-southeast-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = [
+    'kyubs-blog.ap-southeast-1.elasticbeanstalk.com',
+    'kyubs-django.ap-southeast-1.elasticbeanstalk.com'
+]
 
 
 # Application definition
